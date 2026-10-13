@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 104px;
+    padding-left: 104px;
+    height: 96px;
+    border-bottom: 1px solid #DCE5EC;
+}
+
+.logo {
+    display: flex;
+    height: 40px;
+    width: 221px;
+    gap: 10px;
+    align-items: center;
+}
+
+.fa-lumon-drop {
+    color: #0866C2;
+}
+
+.logo p {
+    font-size: 25px;
+    color: #102A43;
+    width: 700px;
+    line-height: 100%;
+    letter-spacing: -0.9px;
+    font-family: Inter;
+}
+
+.logo span {
+    color: #0866C2;
+}
+
+.list-nav {
+    width: 320px;
+    height: 35px;
+    gap: 32px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 15px;
+}
+
+.list li {
+    text-decoration: none;
+    color: black;
+    width: auto;
+    height: 35px;
+    padding-top: 5px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: inter;
+
+}
+
+.list-nav a:hover {
+    color: blue;
+    gap: 2px;
+    text-decoration: underline blue 2px;
+}
+
+.nav_btn button {
+    border: none;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    width: 171px;
+    height: 44px;
+    font-size: 17px;
+    background-color: #FF6418;
+}
+
+.nav_btn a {
+    color: white;
+    font-size: 14px;
+    font-family: inter;
+}
+
+.hero_section {
+    height: 668px;
+    padding: 64px 104px 0px 104px;
+}
+
+.main_centre {
+    display: flex;
+    height: 464px;
+}
+
+.left-section {
+    flex-grow: 1;
+    width: 580px;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rigth-section {
+    width: 588px;
+    height: 464px;
+    border-radius: 24px;
+}
+
+.title_principale {
+    width: 580px;
+    height: 189px;
+    font-family: inter;
+    font-size: 56px;
+    color: #102A43;
+    line-height: 112.00000000000001%;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+    color: #0866C2;
+    font-family: inter;
+    font-size: 13px;
+    gap: 8px;
+}
+
+.title_principale p {
+    color: #102A43;
+    font-size: 60px;
+    font-family: 'inter';
+    font-weight: 700px
+}
+
+#description {
+    font-family: 'inter';
+    font-size: 17px;
+    color: #486176;
+    font-weight: 400;
+    line-height: 165%;
+}
+
+.btn_buttom {
+    display: flex;
+    gap: 12px;
+    padding-top: 4px;
+    align-items: center;
+}
+
+.btn_buttom a {
+    text-decoration: none;
+}
+.cnt-btn{
+    border: 2px solid black;
+    padding: 0px 20px 0px 20px;
+    width: 171px;
+    height: 44PX;
+    border-radius: 10px;
+}
