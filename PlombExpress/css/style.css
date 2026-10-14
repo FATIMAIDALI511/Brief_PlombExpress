@@ -98,6 +98,9 @@ body {
 .hero_section {
     height: 668px;
     padding: 64px 104px 0px 104px;
+    display:flex;
+    flex-direction: column;
+    gap:48px;
 }
 
 .main_centre {
@@ -164,9 +167,60 @@ body {
     text-decoration: none;
 }
 .cnt-btn{
-    border: 2px solid black;
     padding: 0px 20px 0px 20px;
     width: 171px;
     height: 44PX;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+background-color:#FF6418;
+}
+.cnt-btn a{
+     color:white;
+    font-family: inter;
+}
+.serv-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border: 1px solid #DCE5EC;
+    width: 142px;
+    border-radius: 10px;
+    height: 44PX;
+}
+.serv-btn a{
+    font-family: inter;
+    color: black;
+}
+.hero_section_buttom{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #DCE5EC;
+    width: 1232px;
+    height: 92px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    font-family:inter;
+}
+.milieu-_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.milieu-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 119px;
+    justify-content: space-around;
+}
+.milieu-section_main{
+    display: flex;
+    /* gap:24px; */
+    width: 1324px;
+    justify-content: space-between;
 }
